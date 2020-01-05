@@ -5,6 +5,10 @@
   "repository": "https://github.com/jetaimefrc/who-i-am.git",
   "author": "Demons Light <jetaimefrc@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
