@@ -6,8 +6,8 @@ module.exports = {
         children: [['', 'Giới thiệu']],
       },
       {
-        title: '...',
-        children: ['..'],
+        title: 'Leadership',
+        children: ['/leadership/leadership'],
       },
     ]
   },
@@ -18,8 +18,8 @@ module.exports = {
         children: [['', 'Giới thiệu']],
       },
       {
-        title: '...',
-        children: ['..'],
+        title: 'Finance',
+        children: ['/finance/finance'],
       },
     ]
   },
@@ -30,8 +30,8 @@ module.exports = {
         children: [['', 'Giới thiệu']],
       },
       {
-        title: '...',
-        children: ['..'],
+        title: 'Investing',
+        children: ['/investing/investing'],
       },
     ]
   },
@@ -42,8 +42,8 @@ module.exports = {
         children: [['', 'Giới thiệu']],
       },
       {
-        title: '...',
-        children: ['..'],
+        title: 'Other',
+        children: ['/other/other'],
       },
     ]
   },

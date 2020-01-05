@@ -28,7 +28,7 @@ module.exports = [
           },
           {
             text: 'Chạy bộ',
-            link: '/api/cli.html',
+            link: '/other/health/running.html',
           },
         ],
       },
