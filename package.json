@@ -5,6 +5,19 @@
   "repository": "https://github.com/jetaimefrc/who-i-am.git",
   "author": "Demons Light <jetaimefrc@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "@vuepress/theme-vue": "^1.2.0",
+    "chalk": "^3.0.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-element-tabs": "^0.2.8",
+    "yorkie": "^2.0.0"
+  },
   "gitHooks": {
     "pre-commit": "lint-staged",
     "commit-msg": "node scripts/verify-commit-msg.js"
@@ -14,12 +27,5 @@
       "pretty-quick --staged",
       "git add"
     ]
-  },
-  "devDependencies": {
-    "chalk": "^3.0.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "yorkie": "^2.0.0"
   }
 }
