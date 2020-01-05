@@ -3,7 +3,7 @@ const {
   getInvestingSideBar,
   getLeadershipSideBar,
   getOtherSideBar,
-} = require('./link/sideBar')
+} = require('./link/sidebar')
 
 module.exports = {
   title: `Tri thức là sức mạnh`,
