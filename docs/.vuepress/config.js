@@ -6,16 +6,16 @@ const {
 } = require('./link/sideBar')
 
 module.exports = {
-  title: `Let's go ENGRISK 🦄`,
+  title: `Tri thức là sức mạnh`,
   description: '💎 are created under fucking pressure',
   plugins: [
     'element-tabs',
-    [
-      '@vuepress/google-analytics',
-      // {
-      //   ga: 'UA-154598962-1',
-      // },
-    ],
+    // [
+    //   '@vuepress/google-analytics',
+    //   // {
+    //   //   ga: 'UA-154598962-1',
+    //   // },
+    // ],
     ['@vuepress/back-to-top', true],
     [
       '@vuepress/pwa',
